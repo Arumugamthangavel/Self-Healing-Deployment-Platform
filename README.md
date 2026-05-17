@@ -57,3 +57,28 @@ This directory contains Ansible playbooks used for infrastructure automation and
 Self-Healing Recovery
        ↓
 Prometheus + Grafana
+
+
+
+# Monitoring Setup
+
+This directory contains monitoring configurations used for infrastructure observability and container health tracking.
+
+## Monitoring Tools
+
+- Prometheus
+- Grafana
+
+## Metrics Monitored
+
+- CPU utilization
+- Memory usage
+- Pod restart count
+- Container health
+
+## Future Improvements
+
+- AlertManager integration
+- Slack notifications
+- Advanced Grafana dashboards
+- Kubernetes node exporter
