@@ -58,7 +58,74 @@ Self-Healing Recovery
        ↓
 Prometheus + Grafana
 
+# CI/CD Workflow
 
+## Jenkins Pipeline
+
+Jenkins is used to automate the CI/CD workflow of the platform.
+
+### Pipeline Stages
+
+- Clone source code from GitHub
+- Build Docker image
+- Verify Docker build
+- Push image to DockerHub
+- Trigger Kubernetes deployment
+
+### Jenkins Features
+
+- Automated build execution
+- Continuous Integration workflow
+- Pipeline-based deployment automation
+- Integration with Docker and Kubernetes
+
+---
+
+# Docker Containerization
+
+Docker is used to package the application and its dependencies into portable containers.
+
+## Docker Workflow
+
+- Build container image using Dockerfile
+- Store image in DockerHub repository
+- Deploy containers inside Kubernetes cluster
+
+## Docker Features
+
+- Lightweight containerized deployments
+- Consistent runtime environments
+- Faster application deployment
+- Simplified dependency management
+
+---
+
+# Kubernetes Orchestration
+
+Kubernetes is used to manage, scale, and recover application containers automatically.
+
+## Kubernetes Components Used
+
+- Deployment
+- Service
+- Ingress
+- Horizontal Pod Autoscaler (HPA)
+
+## Self-Healing Features
+
+- Automatic pod restart
+- Liveness probes
+- Readiness probes
+- Auto-scaling based on CPU usage
+
+## Kubernetes Workflow
+
+1. Pull container image from DockerHub
+2. Deploy application pods
+3. Expose services internally
+4. Route external traffic using Ingress
+5. Monitor pod health
+6. Restart failed containers automatically
 
 # Monitoring Setup
 
