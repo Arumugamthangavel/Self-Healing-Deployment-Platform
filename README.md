@@ -32,6 +32,26 @@ Developer Push
        ↓
    DockerHub
        ↓
+
+```
+
+# Ansible Automation
+
+This directory contains Ansible playbooks used for infrastructure automation and server configuration.
+
+## Current Automation Tasks
+
+- Docker installation
+- Service management
+- Package updates
+- Infrastructure configuration
+
+## Future Improvements
+
+- Jenkins installation automation
+- Kubernetes node setup
+- Tomcat deployment automation
+- Monitoring agent installation
  Kubernetes Cluster
        ↓
 Self-Healing Recovery
