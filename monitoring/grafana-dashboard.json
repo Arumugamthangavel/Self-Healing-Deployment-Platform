@@ -1,1 +1,19 @@
-
+{
+  "dashboard": {
+    "title": "Self-Healing DevOps Monitoring",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "CPU Usage"
+      },
+      {
+        "type": "graph",
+        "title": "Memory Usage"
+      },
+      {
+        "type": "stat",
+        "title": "Pod Restart Count"
+      }
+    ]
+  }
+}
