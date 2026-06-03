@@ -2,6 +2,8 @@
 
 A cloud-native DevOps automation platform designed to demonstrate CI/CD automation, Kubernetes self-healing capabilities, infrastructure monitoring, and container orchestration using Jenkins, Docker, Kubernetes, Prometheus, and Grafana.
 
+![self-healing](screenshot/self-healing.png)
+
 ---
 
 # Project Overview
